@@ -131,3 +131,50 @@ while success:
 
 
 
+# %% [markdown]
+# ## Introducción a SQL
+# %% [markdown]
+# ### 1. Crear una base de datos en SQL
+# %% [markdown]
+# #### a. Instalar un motor de base de datos SQL, como SQLite o MySQL.
+# %%
+# %% [markdown]
+# #### b. Crear una base de datos vacía utilizando la sintaxis SQL adecuada.
+# %%
+# %% [markdown]
+# ### 2. Crear una tabla en la base de datos
+# %% [markdown]
+# #### a. Definir una estructura para la tabla, incluyendo los nombres y tipos de datos de las columnas.
+# %%
+# %% [markdown]
+# #### b. Utilizar la sintaxis SQL adecuada para crear la tabla en la base de datos.
+# %%
+# %% [markdown]
+# ### 3. Insertar datos en la tabla
+# %% [markdown]
+# #### a. Crear una serie de registros de datos para insertar en la tabla.
+# %%
+# %% [markdown]
+# #### b. Utilizar la sintaxis SQL adecuada para insertar los registros en la tabla.
+# %%
+# %% [markdown]
+# ### 4. Seleccionar datos de la tabla
+# %% [markdown]
+# #### a. Utilizar la sintaxis SQL adecuada para seleccionar todos los registros de la tabla.
+# %%
+# %% [markdown]
+# #### b. Utilizar la sintaxis SQL adecuada para seleccionar registros específicos de la tabla.
+# %%
+# %% [markdown]
+# ### 5. Actualizar registros en la tabla
+# %% [markdown]
+# #### a. Utilizar la sintaxis SQL adecuada para actualizar un registro específico de la tabla.
+# %%
+# %% [markdown]
+# ### 6. Borrar registros de la tabla
+# %% [markdown]
+# #### a. Utilizar la sintaxis SQL adecuada para borrar un registro específico de la tabla.
+# %%
+# %% [markdown]
+# #### b. Utilizar la sintaxis SQL adecuada para borrar todos los registros de la tabla.
+# %%
