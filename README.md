@@ -21,27 +21,20 @@ Ejercicios practicos para las clases de la materia Laboratorio de Datos, de la L
 |9           |Formatos                         |Mas tecnicas de transformacion y limpieza de datos      |
 |10          |Visualizacion                    |Introduccion a la visualizacion de datos                |
 |11          |Visualizacion                    |Visualizaciones Avanzadas                               |
-|E1          |Repaso de Estadistica            |Probabilidad y distribuciones estadísticas              |
-|E2          |Repaso de Estadistica            |Pruebas de hipótesis e intervalos de confianza          |
-|E3          |Repaso de Estadistica            |Análisis de regresión (OLS)                             |
-|12          |Exploracion                      |Analisis exploratorio de datos                          |
-|13          |Exploracion                      |Tecnicas de analisis de datos                           |
-|14          |Exploracion                      |Introducción a la narración y comunicación de datos     |
-|15          |Exploracion                      |Creación de presentaciones de datos e informes efectivos|
-|16          |Modelos                          |Introducción al modelado                                |
-|17          |Modelos                          |Introducción a la evaluación y selección de modelos     |
-|18          |Modelos                          |Validación, hiperparámetros y métricas de evaluación    |
-|19          |Modelos                          |Modelos de ensemble                                     |
-|20          |Modelos                          |Modelos de clustering                                   |
-|21          |Modelos                          |Modelos de series temporales                            |
-|22          |Modelos                          |Evaluacion en deep learning y redes neuronales          |
-|23          |Aprendizaje Automático           |Introduccion a machine learning                         |
-|24          |Aprendizaje Automático           |Arboles de decision. Ensembles                          |
-|25          |Aprendizaje Automático           |SVM, KNN, naive bayes                                   |
-|26          |No supervisado                   |Introduccion a redes neuronales                         |
-|27          |No supervisado                   |Mas sobre redes neuronales                              |
-|28          |No supervisado                   |Introducción al aprendizaje por refuerzo                |
-|29          |No supervisado                   |Introducción al procesamiento del lenguaje natural (NLP)|
+|12          |Repaso de Estadistica            |Probabilidad y distribuciones estadísticas              |
+|13          |Repaso de Estadistica            |Pruebas de hipótesis e intervalos de confianza          |
+|14          |Repaso de Estadistica            |Análisis de regresión (OLS)                             |
+|15          |Exploracion                      |Analisis exploratorio de datos                          |
+|16          |Exploracion                      |Tecnicas de analisis de datos                           |
+|17          |Exploracion                      |Introducción a la narración y comunicación de datos     |
+|18          |Exploracion                      |Creación de presentaciones de datos e informes efectivos|
+|19         |Modelos                           |Estrategias para aprender y mejorar en Machine Learning |
+|20         |Modelos                           |Representaciones de datos y el poder de las embeddings  |
+|21         |Modelos                           |Estrategias avanzadas para la selección y ajuste de modelos |
+|22         |Modelos                           |Aprendizaje automático a gran escala y modelos eficientes |
+|23         |Modelos                           |ML explicable, causalidad y razonamiento bayesiano      |
+|24         |Modelos                           |Redes neuronales modernas y por qué los Transformers lo cambiaron todo |
+|25         |Modelos                           |Infraestructura de datos y MLOps en la industria        |
 
 
 # Guia de Contenidos por clase
@@ -144,21 +137,21 @@ Clase 11:
 
 Contenidos minimos correlativos que preceden a los modelos y otros conceptos mas avanzados que ocupan el resto de la materia.
 
-Clase E1: Probabilidad y distribuciones estadísticas
+Clase 12: Probabilidad y distribuciones estadísticas
 
     * Introducción a la probabilidad y distribuciones de probabilidad
     * Tipos de distribuciones de probabilidad (por por ej. normal, binomial, Poisson)
     * Propiedades y aplicaciones de cada distribución
     * Teorema del límite central y su significado en estadística
 
-Clase E2: Pruebas de hipótesis e intervalos de confianza
+Clase 13: Pruebas de hipótesis e intervalos de confianza
 
     * El concepto de prueba de hipótesis e hipótesis nulas/alternativas
     * Tipos de errores en la prueba de hipótesis (errores tipo I y tipo II)
     * Intervalos de confianza y su interpretación
     * Ejemplos prácticos de prueba de hipótesis e intervalos de confianza en ciencia de datos
 
-Clase E3: Análisis de regresión
+Clase 14: Análisis de regresión
 
     * Introducción a la regresión lineal y sus suposiciones
     * Regresión lineal múltiple y sus extensiones
@@ -173,21 +166,23 @@ Recordar que tener intuicion de las bases de estadistica y la idea del central l
 
 La exploracion es un paso crucial en cualquier proyecto de análisis de datos, ya que ayuda a comprender los datos e identificar posibles problemas.
 
-Clase 12:
+Clase 15:
 
     * Descripción general del análisis exploratorio de datos
     * Técnicas para resumir y visualizar distribuciones de datos
     * Identificación de valores atípicos y valores perdidos
     * Limpieza y preprocesamiento de datos
 
-Clase 13:
+## Modelos
+
+Clase 16:
 
     * Análisis de correlación y asociación
     * Técnicas de reducción de dimensionalidad (por por ej. PCA, t-SNE)
     * Técnicas de agrupamiento y segmentación
     * Exploración de patrones de datos temporales y espaciales
     
-Clase 14: Introducción a la narración y comunicación de datos
+Clase 17: Introducción a la narración y comunicación de datos
 
     * Importancia de la narración de datos y la comunicación efectiva en el análisis de datos
     * Comprender a la audiencia y adaptar la comunicación en consecuencia
@@ -195,120 +190,60 @@ Clase 14: Introducción a la narración y comunicación de datos
     * Importancia de crear una narrativa en la narración de datos
     * Cómo usar de manera efectiva la visualización de datos para comunicar ideas
 
-Clase 15: Creación de presentaciones de datos e informes efectivos
+Clase 18: Creación de presentaciones de datos e informes efectivos
 
     * Introducción a diferentes tipos de presentaciones de datos (ej. diapositivas, infografías, tableros)
     * Mejores prácticas para crear presentaciones de datos efectivas
     * Cómo estructurar un informe de datos para lograr el máximo impacto
     * Sugerencias para crear imágenes atractivas y usarlas e manera efectiva
     
-    
-## Modelos
+Clase 19: Estrategias para aprender y mejorar en Machine Learning
 
-Introducción al modelado: este tema cubre los conceptos básicos del modelado, incluidos los modelos predictivos y explicativos.
+   * Cómo leer papers de Machine Learning de manera eficiente (identificación de ideas clave sin perderse en la notación matemática).  
+   * El ciclo de vida de un modelo de ML en producción (desde la recopilación de datos hasta el despliegue).  
+   * Diagnóstico y debugging de modelos (sesgo-varianza, sobreajuste, ajuste deficiente y cuándo confiar en los resultados).  
+   * Fundamentos matemáticos esenciales (álgebra lineal, probabilidad y optimización explicadas de manera práctica).  
+   * Desarrollo de una mentalidad de aprendizaje continuo en ciencia de datos y ML.
 
-Clase 16:
+Clase 20: Representaciones de datos y el poder de las embeddings
+   
+   * ¿Qué hace que una representación sea “buena”? (PCA, t-SNE, UMAP, embeddings).  
+   * Diferencias entre características tradicionales y representaciones aprendidas.
+   * Reducción de dimensionalidad y selección de características.
+   * Introducción a embeddings y su uso en aprendizaje no supervisado y en RAG (Retrieval-Augmented Generation).
+   
 
-    * Descripción general del modelado: ¿Qué es el modelado? ¿Por qué es importante?
-    * Tipos de modelos: discuta la diferencia entre modelos predictivos y explicativos y cuándo usar cada tipo.
-    * Selección del modelo: Cómo seleccionar el modelo apropiado para un problema dado.
-    * Desarrollo de modelos: el proceso de creación de un modelo, incluida la preparación de datos, la selección de características y el entrenamiento del modelo.
-    * Evaluación del modelo: técnicas para evaluar el rendimiento de un modelo, incluidas medidas como exactitud, precisión y recuperación.
-    * Sobreajuste y desajuste: los peligros de sobreajustar un modelo a los datos de entrenamiento y desajuste de un modelo para capturar patrones importantes en los datos.
-    * Interpretación del modelo: cómo interpretar los resultados de un modelo y comunicar información a las partes interesadas.
-    * Implementación de modelos: estrategias para implementar un modelo en producción y monitorear su desempeño a lo largo del tiempo.
-    
-    
-Herramientas de validación de un modelo: La validación del modelo es importante para garantizar que el modelo sea preciso y confiable.
+Clase 21: Estrategias avanzadas para la selección y ajuste de modelos
 
+   * Búsqueda de hiperparámetros: Grid Search, Random Search y Bayesian Optimization.
+   * Estrategias de validación: validación cruzada y evaluación en conjuntos de datos pequeños vs. grandes.
+   * Pipelines de ML: Construcción de flujos eficientes para evitar fugas de datos.
+   * Checkpointing, early stopping y regularización para mejorar la estabilidad del entrenamiento.
 
-Clase 17: Introducción a la evaluación y selección de modelos
+Clase 22: Aprendizaje automático a gran escala y modelos eficientes
 
-    * Tipos de modelos y métricas de evaluación de modelos
-    * Compensación de sesgo y varianza en el rendimiento del modelo
-    * Overfitting y underfitting
+   * Técnicas de ensemble learning: Bagging, Boosting y Stacking.
+   * Compresión de modelos: Cuantización, Pruning y Distillation.
+   * Fine-Tuning de modelos grandes vs. modelos entrenados desde cero.
+   * Comparación práctica entre modelos pequeños eficientes y modelos grandes preentrenados.
 
-Clase 18: Validación cruzada, ajuste de hiperparámetros y métricas de evaluación
+Clase 23: ML explicable, causalidad y razonamiento bayesiano
 
-    * Validación cruzada de K-fold y validación cruzada de dejar uno fuera
-    * Búsqueda en cuadrícula y búsqueda aleatoria para ajuste de hiperparámetros
-    * Métricas de evaluación para modelos de clasificación y regresión
-    * Matrices de confusión y curvas ROC
+   * Causalidad en ML: DAGs, contrafactuales y experimentos A/B. 
+   * Razonamiento bayesiano aplicado a ML: Priors, posteriors y estimación de incertidumbre.
+   * Interpretabilidad de modelos: SHAP, LIME y gráficas de dependencia parcial.
+   * Construcción de modelos explicables y transparentes.
 
-Clase 19: Aprendizaje en conjunto e interpretabilidad del modelo
+Clase 24: Redes neuronales modernas y por qué los Transformers lo cambiaron todo
 
-    * Embolsar, impulsar y apilar
-    * Interpretabilidad del modelo e importancia de las características
-    * Gráficas de dependencia parcial y valores SHAP
+   * Fundamentos esenciales de redes neuronales (backpropagation, optimización, funciones de pérdida).
+   * Redes convolucionales (CNNs) y su evolución en visión por computadora.
+   * De RNNs a Transformers: El mecanismo de atención y cómo cambió el procesamiento de texto.
+   * Aprendizaje autosupervisado: Cómo entrenar modelos con datos no etiquetados.
 
-Clase 20: Métricas de evaluación para algoritmos de agrupamiento (clustering)
+Clase 25: Infraestructura de datos y MLOps en la industria
 
-    * Puntuación de silueta y otras métricas de evaluación para algoritmos de agrupamiento
-    * Agrupación jerárquica y agrupación de k-medias
-    * Evaluación de modelos de aprendizaje no supervisado
+   * Principios de Data Engineering para ML:
+   * MLOps y automatización del ciclo de vida de modelos
+   * Optimización de hardware para ML
 
-Clase 21: Evaluación de modelos de series temporales
-
-    * ARIMA y otros modelos de series temporales
-    * Métricas para evaluar modelos de series temporales, como RMSE y MAE
-    * Precisión y evaluación del pronóstico
-
-Clase 22: Evaluación de modelos en el contexto de aprendizaje profundo (deep learning) y redes neuronales
-
-    * Métricas para evaluar redes neuronales, como precisión y pérdida
-    * Evaluación de redes neuronales convolucionales (CNNs) para clasificación de imágenes
-    * Evaluación de redes neuronales recurrentes (RNN) para procesamiento de lenguaje natural
-    * Métricas de evaluación para conjuntos de datos desequilibrados
-    * Evaluación de sistemas de recomendación
-    * Evaluación de modelos generativos, como GAN
-    
-## Aprendizaje Automático
-
-Introducción a los conceptos fundamentales de aprendizaje supervisado y no supervisado, y una descripción general de los algoritmos más comunes.
-
-Clase 23:
-
-    * Introducción al aprendizaje supervisado y no supervisado
-    * Descripción general de los algoritmos comunes de aprendizaje automático
-    * Tipos de problemas de aprendizaje automático (clasificación, regresión, agrupamiento, etc.)
-
-Clase 24:
-
-    * Árboles de decisión para clasificación y regresión
-    * Bosques aleatorios y técnicas de ensacado
-    * Algoritmos de aumento de gradiente
-
-Clase 25:
-
-    * Máquinas de vectores de soporte (SVM) para clasificación y regresión
-    * Algoritmo de K-vecinos más cercanos (KNN) para clasificación y regresión
-    * Algoritmo Naive Bayes para la clasificación
-
-
-## No supervisado
-
-Técnicas de aprendizaje no supervisado: k-means, clustering jerárquico. Las tecnicas de aprendizaje no supervisado son importantes para identificar patrones y relaciones en los datos.
-
-Clase 26:
-
-    * Introducción a las redes neuronales y el aprendizaje profundo
-    * Redes neuronales de avance
-    * Redes neuronales convolucionales (CNN)
-
-Clase 27:
-
-    * Redes neuronales recurrentes (RNN) y sus aplicaciones en el procesamiento del lenguaje natural
-    * Redes de memoria a largo plazo (LSTM)
-    * Autocodificadores y sus aplicaciones en el aprendizaje no supervisado
-
-Clase 28:
-
-    * Introducción al aprendizaje por refuerzo
-    * Procesos de decisión de Markov y la ecuación de Bellman
-    * Q-learning y Q-learning profundo
-
-Clase 29:
-
-    * Introducción al procesamiento del lenguaje natural (PNL)
-    * Técnicas de preprocesamiento y limpieza de textos
-    * Tareas y técnicas de NLP (etiquetado de partes del discurso, reconocimiento de entidades nombradas, análisis de sentimientos, etc.)
