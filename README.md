@@ -6,113 +6,103 @@ Ejercicios practicos para las clases de la materia Laboratorio de Datos, de la L
 
 
 
+
 # Indice de clases
 
-|Clase Numero|Capitulo                         |Titulo                                                  |
-|------------|---------------------------------|--------------------------------------------------------|
-|1           |Obtencion y organizacion de datos|Recopilacion, organizacion, calidad y limpieza de datos.|
-|2           |Obtencion y organizacion de datos|Introduccion a tecnicas de procesamiento de datos       |
-|3           |Datos no estructurados           |Datos de Texto e imagenes                               |
-|4           |Datos no estructurados           |Datos de audio y video                                  |
-|5           |Datos no estructurados           |Geoespaciales, redes sociales, APIs                     |
-|6           |Datos no estructurados           |Web scraping                                            |
-|7           |Formatos                         |Formatos de datos de texto                              |
-|8           |Formatos                         |Formatos binarios (PDF, JPEG, DOCX)                     |
-|9           |Formatos                         |Mas tecnicas de transformacion y limpieza de datos      |
-|10          |Visualizacion                    |Introduccion a la visualizacion de datos                |
-|11          |Visualizacion                    |Visualizaciones Avanzadas                               |
-|12          |Repaso de Estadistica            |Probabilidad y distribuciones estadísticas              |
-|13          |Repaso de Estadistica            |Pruebas de hipótesis e intervalos de confianza          |
-|14          |Repaso de Estadistica            |Análisis de regresión (OLS)                             |
-|15          |Exploracion                      |Analisis exploratorio de datos                          |
-|16          |Exploracion                      |Tecnicas de analisis de datos                           |
-|17          |Exploracion                      |Introducción a la narración y comunicación de datos     |
-|18          |Exploracion                      |Creación de presentaciones de datos e informes efectivos|
-|19         |Modelos                           |Estrategias para aprender y mejorar en Machine Learning |
-|20         |Modelos                           |Representaciones de datos y el poder de las embeddings  |
-|21         |Modelos                           |Estrategias avanzadas para la selección y ajuste de modelos |
-|22         |Modelos                           |Aprendizaje automático a gran escala y modelos eficientes |
-|23         |Modelos                           |ML explicable, causalidad y razonamiento bayesiano      |
-|24         |Modelos                           |Redes neuronales modernas y por qué los Transformers lo cambiaron todo |
-|25         |Modelos                           |Infraestructura de datos y MLOps en la industria        |
+|Clase Numero|Capitulo                              |Titulo                                                     |
+|------------|--------------------------------------|-----------------------------------------------------------|
+|1           |Fundamentos de Datos                  |Fundamentos de almacenamiento y formatos de datos         |
+|2           |Fundamentos de Datos                  |Introducción a bases de datos y SQL                        |
+|3           |Fundamentos de Datos                  |Diseño y normalización de bases de datos                   |
+|4           |Fundamentos de Datos                  |Manejo de datos no estructurados y web scraping            |
+|5           |Transformación de Datos               |ETL y manipulación avanzada de datos con Pandas            |
+|6           |Transformación de Datos               |Manipulación avanzada de datos con Pandas                  |
+|7           |Transformación de Datos               |Agregación, resúmenes y análisis exploratorio avanzado     |
+|8           |Transformación de Datos               |Transformación de datos en múltiples fuentes               |
+|9           |Transformación de Datos               |Preparación de datos para modelado y Machine Learning      |
+|10          |Visualización                         |Introducción a la visualización de datos                   |
+|11          |Visualización                         |Visualizaciones avanzadas y técnicas interactivas          |
+|E1          |Repaso de Estadistica            |Probabilidad y distribuciones estadísticas              |
+|E2          |Repaso de Estadistica            |Pruebas de hipótesis e intervalos de confianza          |
+|E3          |Repaso de Estadistica            |Análisis de regresión (OLS)                             |
+|12          |Exploración y Comunicación            |Análisis exploratorio de datos y limpieza                  |
+|13          |Exploración y Comunicación            |Introducción a la narración y comunicación de datos        |
+|14          |Exploración y Comunicación            |Creación de presentaciones de datos e informes efectivos   |
+|15          |Introducción a Machine Learning       |Fundamentos de ML y métodos de clasificación               |
+|16          |Introducción a Machine Learning       |Evaluación y selección de modelos                          |
+|17          |Introducción a Machine Learning       |Regresión: Modelos lineales y KNN                          |
+|18          |Introducción a Machine Learning       |Modelos no supervisados: Clustering                        |
+|19          |Machine Learning Avanzado             |Reducción de dimensionalidad y representaciones de datos   |
+|20          |Machine Learning Avanzado             |Optimización y ajuste de modelos                           |
+|21          |Machine Learning Avanzado             |Redes neuronales y arquitecturas modernas                  |
+|22          |Machine Learning Avanzado             |ML explicable y causalidad                                 |
+|23          |Producción y Automatización           |MLOps y automatización del ciclo de vida de modelos        |
+
+
 
 
 # Guia de Contenidos por clase
 
-## Obtencion y organizacion de datos
+## Fundamentos de Datos 
 
-Este tema cubre los aspectos básicos de la recopilación y organización de datos, lo cual es crucial para cualquier proyecto de análisis de datos.
+Clase 1: Fundamentos de almacenamiento y formatos de datos
+   * Tipos de datos estructurados y semiestructurados (CSV, JSON, XML, Parquet).
+   * Diferencias entre almacenamiento en filas vs. columnas (Parquet vs. CSV).
+   * Introducción a **Pandas** para la carga y exploración de datos.
+   * Buenas prácticas en almacenamiento y organización de datos.
 
-Clase 1:
+Clase 2: Introducción a bases de datos y SQL
+   * Modelo relacional: tablas, claves primarias/foráneas, relaciones.
+   * Conceptos clave de SQL: SELECT, INSERT, UPDATE, DELETE.
+   * Creación y consulta de bases de datos con **SQLite** y **PostgreSQL**.
+   * Importar y exportar datos entre **Pandas** y SQL.
 
-    * Introducción a la recopilación y organización de datos.
-    * Tipos de datos (estructurados, semiestructurados, no estructurados).
-    * Fuentes de datos (por por ej. bases de datos, archivos, web scraping).
-    * Calidad y limpieza de datos.
+Clase 3: Diseño y normalización de bases de datos
+   * Diferencias entre bases de datos **relacionales y NoSQL**.
+   * Normalización: ¿por qué descomponer tablas? Primera, segunda y tercera forma normal.
+   * Optimización de almacenamiento y rendimiento en bases de datos SQL.
+   * Creación de modelos de datos eficientes con SQL y Pandas.
 
-Clase 2:
+Clase 4: Manejo de datos no estructurados y web scraping
+   * Extracción de datos desde la web con **requests** y **BeautifulSoup**.
+   * Comprensión de HTML y CSS: conceptos básicos de HTML y CSS, incluidos los selectores y la sintaxis.
+   * Introducción a las bibliotecas de web scraping: descripción general de las bibliotecas de web scraping más populares, como BeautifulSoup y Scrapy.
+   * Introducción a **APIs** y procesamiento de datos semiestructurados.
+   * Almacenamiento eficiente de datos extraídos en bases de datos.
 
-    * Técnicas de disputa y manipulación de datos (por por ej. filtrado, clasificación, fusión).
-    * Agregación y resumen de datos.
-    * Introducción a la visualización de datos.
-    * Almacenamiento y recuperación de datos (por por ej. SQL, NoSQL).
-    
-## Datos no estructurados
 
-Esta es un área importante ya que gran parte de los datos generados hoy en día no están estructurados, como texto e imágenes.
+## Transformación de Datos 
 
-Clase 3:
+Clase 5: ETL y manipulación avanzada de datos con Pandas
+   * Introducción a procesos ETL: Extract, Transform, Load.
+   * Limpieza y transformación de datos con Pandas.
+   * Conexión de Pandas con SQL y NoSQL para procesamiento de datos.
+   * Creación de pipelines de transformación de datos reproducibles.
 
-    * Introducción a los datos no estructurados.
-    * Técnicas para procesar datos de texto (por por ej. tokenización, derivación, análisis de sentimientos).
-    * Técnicas para procesar datos de imágenes (por por ej. extracción de características, redes neuronales convolucionales).
+Clase 6: Manipulación avanzada de datos con Pandas
+   * Técnicas avanzadas de indexado y selección de datos (`.loc`, `.iloc`, `.query`).
+   * Aplicación de transformaciones vectorizadas con `.apply()`, `.map()`, `.transform()`.
+   * Manejo de datos desordenados: reindexado, pivot tables y manejo de multi-index.
+   * Creación de funciones personalizadas para procesamiento de datos.
 
-Clase 4:
+Clase 7: Agregación, resúmenes y análisis exploratorio avanzado
+   * Uso de `groupby()` para segmentación y análisis de datos.
+   * Agregaciones avanzadas con `agg()`, `apply()`, y `transform()`.
+   * Detección de patrones y generación de estadísticas descriptivas.
+   * Análisis temporal: manejo de fechas, resampling y rolling windows.
 
-    * Técnicas para procesar datos de audio y video (por por ej. transformadas de Fourier, espectrogramas).
-    * Introducción al procesamiento del lenguaje natural (PNL).
-    * Técnicas de PNL para la clasificación de textos y análisis de sentimientos.
-    
-Clase 5:
+Clase 8: Transformación de datos en múltiples fuentes
+   * Integración de múltiples fuentes de datos (archivos CSV, SQL, APIs).
+   * Cómo unir datasets: `merge()`, `concat()`, `join()`.
+   * Identificación y resolución de duplicados y datos inconsistentes.
+   * Creación de pipelines de transformación modulares.
 
-    * Técnicas para procesar datos de redes sociales (por por ej. datos de Twitter, datos de Facebook).
-    * Técnicas para procesar datos geoespaciales (por por ej. datos GPS, datos GIS).
-    * Mejores prácticas para el procesamiento de datos no estructurados.
-    * Interacción con páginas web y con APIs: Acceder a datos de páginas web y APIs es una tarea común en muchos proyectos de análisis de datos.
+Clase 9: Preparación de datos para modelado y Machine Learning
+   * Codificación de variables categóricas (one-hot encoding, label encoding).
+   * Transformaciones matemáticas: escalado, normalización y generación de features.
+   * Manejo de valores faltantes: estrategias avanzadas de imputación.
+   * Selección de variables relevantes para modelos de Machine Learning.
 
-Clase 6:
-
-    * Introducción al web scraping: ¿Qué es el web scraping y por qué es importante?
-    * Comprensión de HTML y CSS: conceptos básicos de HTML y CSS, incluidos los selectores y la sintaxis.
-    * Introducción a las bibliotecas de web scraping: descripción general de las bibliotecas de web scraping más populares, como BeautifulSoup y Scrapy.
-    * Herramientas y técnicas de web scraping: las mejores prácticas para el web scraping, incluido el manejo de contenido dinámico, la navegación por estructuras de sitios web y la evitación de medidas anti-scraping.
-    * Desafíos en web scraping: manejo de diferentes formatos de datos, manejo de errores y manejo de bloqueo de IP y CAPTCHA.
-    * Consideraciones éticas en el web scraping: Cuestiones legales y éticas relacionadas con el web scraping, incluidos los derechos de autor, la privacidad de los datos y las condiciones del servicio.
-    
-## Formatos
-
-Comprender los diferentes formatos de datos es necesario para trabajar con datos de manera efectiva.
-
-Clase 7: Comprender los formatos de texto y manejar diferentes tipos de datos:
-
-    * Introducción a diferentes formatos de datos de texto (CSV, TSV, JSON, XML)
-    * Principios básicos de tipificación de datos (cadenas, números, fechas)
-    * Técnicas para el manejo de diferentes tipos de datos en formatos de texto
-    * Análisis y limpieza de datos usando bibliotecas de Python (por por ej. Pandas)
-
-Clase 8: Comprensión de formatos binarios y transformación de datos:
-
-    * Introducción a los formatos binarios comunes (PDF, DOCX, JPEG, PNG)
-    * Técnicas para transformar datos entre diferentes formatos binarios
-    * Extracción y manipulación de datos mediante bibliotecas de Python (por por ej. PyPDF2, Pillow)
-    * Mejores prácticas para el almacenamiento y manejo de datos binarios
-
-Clase 9: Manejo de datos faltantes o incompletos y mejores prácticas para formatear y almacenar.
-
-    * Técnicas para identificar datos faltantes o incompletos
-    * Métodos para manejar datos faltantes o incompletos (por por ej. eliminación, imputación)
-    * Las mejores prácticas para el formato y el almacenamiento de datos, incluidas las convenciones de nomenclatura y el control de versiones de datos
-    * Ejercicios prácticos para aplicar técnicas de formateo, transformación y limpieza de datos
 
 ## Visualizacion
 
@@ -120,38 +110,38 @@ Herramientas para una buena visualizacion, clave para comunicar mensajes a trave
 
 Clase 10:
 
-    * Introducción a la visualización de datos
-    * Principios del diseño visual.
-    * Selección de representaciones visuales apropiadas
-    * Tipos de visualización comunes (por por ej. gráficos de barras, gráficos de líneas, diagramas de dispersión)
+   * Introducción a la visualización de datos
+   * Principios del diseño visual.
+   * Selección de representaciones visuales apropiadas
+   * Tipos de visualización comunes (por por ej. gráficos de barras, gráficos de líneas, diagramas de dispersión)
 
 Clase 11:
 
-    * Visualizaciones avanzadas (por por ej. mapas de calor, mapas de árboles, diagramas de red)
-    * Visualización de datos multidimensionales
-    * Interactividad en la visualización de datos
-    * Las mejores prácticas para una visualización de datos eficaz
-    
-    
+   * Visualizaciones avanzadas (por por ej. mapas de calor, mapas de árboles, diagramas de red)
+   * Visualización de datos multidimensionales
+   * Interactividad en la visualización de datos
+   * Las mejores prácticas para una visualización de datos eficaz
+
+
 ## Repaso de estadistica para analisis de datos
 
 Contenidos minimos correlativos que preceden a los modelos y otros conceptos mas avanzados que ocupan el resto de la materia.
 
-Clase 12: Probabilidad y distribuciones estadísticas
+Clase E1: Probabilidad y distribuciones estadísticas
 
     * Introducción a la probabilidad y distribuciones de probabilidad
     * Tipos de distribuciones de probabilidad (por por ej. normal, binomial, Poisson)
     * Propiedades y aplicaciones de cada distribución
     * Teorema del límite central y su significado en estadística
 
-Clase 13: Pruebas de hipótesis e intervalos de confianza
+Clase E2: Pruebas de hipótesis e intervalos de confianza
 
     * El concepto de prueba de hipótesis e hipótesis nulas/alternativas
     * Tipos de errores en la prueba de hipótesis (errores tipo I y tipo II)
     * Intervalos de confianza y su interpretación
     * Ejemplos prácticos de prueba de hipótesis e intervalos de confianza en ciencia de datos
 
-Clase 14: Análisis de regresión
+Clase E3: Análisis de regresión
 
     * Introducción a la regresión lineal y sus suposiciones
     * Regresión lineal múltiple y sus extensiones
@@ -159,91 +149,111 @@ Clase 14: Análisis de regresión
     * Modelos de regresión no lineal (por por ej. regresión polinomial, regresión spline)
 
 
-Recordar que tener intuicion de las bases de estadistica y la idea del central limit theorem es clave para tomar decisiones en un proceso de analisis de informacion cuantitativa.
+Recordar que tener intuicion de las bases de estadistica y la idea del TCL es clave para tomar decisiones en un proceso de analisis de informacion cuantitativa.
 
 
-## Exploracion
+## EDA y Comunicacion
 
 La exploracion es un paso crucial en cualquier proyecto de análisis de datos, ya que ayuda a comprender los datos e identificar posibles problemas.
-
-Clase 15:
-
-    * Descripción general del análisis exploratorio de datos
-    * Técnicas para resumir y visualizar distribuciones de datos
-    * Identificación de valores atípicos y valores perdidos
-    * Limpieza y preprocesamiento de datos
-
-## Modelos
-
-Clase 16:
-
-    * Análisis de correlación y asociación
-    * Técnicas de reducción de dimensionalidad (por por ej. PCA, t-SNE)
-    * Técnicas de agrupamiento y segmentación
-    * Exploración de patrones de datos temporales y espaciales
     
-Clase 17: Introducción a la narración y comunicación de datos
+Clase 12:
 
-    * Importancia de la narración de datos y la comunicación efectiva en el análisis de datos
-    * Comprender a la audiencia y adaptar la comunicación en consecuencia
-    * Mejores prácticas para una comunicación clara y concisa
-    * Importancia de crear una narrativa en la narración de datos
-    * Cómo usar de manera efectiva la visualización de datos para comunicar ideas
-
-Clase 18: Creación de presentaciones de datos e informes efectivos
-
-    * Introducción a diferentes tipos de presentaciones de datos (ej. diapositivas, infografías, tableros)
-    * Mejores prácticas para crear presentaciones de datos efectivas
-    * Cómo estructurar un informe de datos para lograr el máximo impacto
-    * Sugerencias para crear imágenes atractivas y usarlas e manera efectiva
+   * Descripción general del análisis exploratorio de datos
+   * Técnicas para resumir y visualizar distribuciones de datos
+   * Identificación de valores atípicos y valores perdidos
+   * Limpieza y preprocesamiento de datos
     
-Clase 19: Estrategias para aprender y mejorar en Machine Learning
+Clase 13: Introducción a la narración y comunicación de datos
 
-   * Cómo leer papers de Machine Learning de manera eficiente (identificación de ideas clave sin perderse en la notación matemática).  
-   * El ciclo de vida de un modelo de ML en producción (desde la recopilación de datos hasta el despliegue).  
-   * Diagnóstico y debugging de modelos (sesgo-varianza, sobreajuste, ajuste deficiente y cuándo confiar en los resultados).  
-   * Fundamentos matemáticos esenciales (álgebra lineal, probabilidad y optimización explicadas de manera práctica).  
-   * Desarrollo de una mentalidad de aprendizaje continuo en ciencia de datos y ML.
+   * Importancia de la narración de datos y la comunicación efectiva en el análisis de datos
+   * Comprender a la audiencia y adaptar la comunicación en consecuencia
+   * Mejores prácticas para una comunicación clara y concisa
+   * Importancia de crear una narrativa en la narración de datos
+   * Cómo usar de manera efectiva la visualización de datos para comunicar ideas
 
-Clase 20: Representaciones de datos y el poder de las embeddings
-   
-   * ¿Qué hace que una representación sea “buena”? (PCA, t-SNE, UMAP, embeddings).  
-   * Diferencias entre características tradicionales y representaciones aprendidas.
-   * Reducción de dimensionalidad y selección de características.
-   * Introducción a embeddings y su uso en aprendizaje no supervisado y en RAG (Retrieval-Augmented Generation).
-   
+Clase 14: Creación de presentaciones de datos e informes efectivos
 
-Clase 21: Estrategias avanzadas para la selección y ajuste de modelos
+   * Introducción a diferentes tipos de presentaciones de datos (ej. diapositivas, infografías, tableros)
+   * Mejores prácticas para crear presentaciones de datos efectivas
+   * Cómo estructurar un informe de datos para lograr el máximo impacto
+   * Sugerencias para crear imágenes atractivas y usarlas e manera efectiva
 
-   * Búsqueda de hiperparámetros: Grid Search, Random Search y Bayesian Optimization.
-   * Estrategias de validación: validación cruzada y evaluación en conjuntos de datos pequeños vs. grandes.
-   * Pipelines de ML: Construcción de flujos eficientes para evitar fugas de datos.
-   * Checkpointing, early stopping y regularización para mejorar la estabilidad del entrenamiento.
+## Introducción a Machine Learning
 
-Clase 22: Aprendizaje automático a gran escala y modelos eficientes
+Clase 15: Fundamentos de ML y Métodos de Clasificación
 
-   * Técnicas de ensemble learning: Bagging, Boosting y Stacking.
-   * Compresión de modelos: Cuantización, Pruning y Distillation.
-   * Fine-Tuning de modelos grandes vs. modelos entrenados desde cero.
-   * Comparación práctica entre modelos pequeños eficientes y modelos grandes preentrenados.
+   * ¿Qué es Machine Learning? Diferencia entre aprendizaje supervisado y no supervisado.
+   * Componentes del pipeline de modelado de datos.
+   * Introducción a modelos de clasificación: KNN, árboles de decisión, SVM.
+   * Métricas básicas de desempeño en clasificación.
+   * Implementación práctica con Scikit-learn.
 
-Clase 23: ML explicable, causalidad y razonamiento bayesiano
+Clase 16: Evaluación y Selección de Modelos
 
-   * Causalidad en ML: DAGs, contrafactuales y experimentos A/B. 
-   * Razonamiento bayesiano aplicado a ML: Priors, posteriors y estimación de incertidumbre.
-   * Interpretabilidad de modelos: SHAP, LIME y gráficas de dependencia parcial.
-   * Construcción de modelos explicables y transparentes.
+   * Importancia de la evaluación en ML.
+   * Métricas clave: Accuracy, Precision, Recall, F1-score, AUC-ROC.
+   * Validación cruzada y estrategias de partición de datos.
+   * Diagnóstico de sobreajuste y subajuste.
+   * Selección de modelos basada en datos.
 
-Clase 24: Redes neuronales modernas y por qué los Transformers lo cambiaron todo
+Clase 17: Regresión: Modelos Lineales y KNN
 
-   * Fundamentos esenciales de redes neuronales (backpropagation, optimización, funciones de pérdida).
-   * Redes convolucionales (CNNs) y su evolución en visión por computadora.
-   * De RNNs a Transformers: El mecanismo de atención y cómo cambió el procesamiento de texto.
-   * Aprendizaje autosupervisado: Cómo entrenar modelos con datos no etiquetados.
+   * Diferencias entre clasificación y regresión.
+   * Regresión lineal simple y múltiple.
+   * Introducción a regresión polinómica.
+   * Uso de KNN para regresión y comparación con modelos lineales.
+   * Evaluación de regresión con R² y MSE.
 
-Clase 25: Infraestructura de datos y MLOps en la industria
+Clase 18: Modelos No Supervisados: Clustering
 
-   * Principios de Data Engineering para ML:
-   * MLOps y automatización del ciclo de vida de modelos
-   * Optimización de hardware para ML
+   * Introducción al aprendizaje no supervisado.
+   * Algoritmos de clustering: K-Means, DBSCAN, clustering jerárquico.
+   * Evaluación de calidad en agrupamientos (Silhouette Score, Davies-Bouldin).
+   * Aplicaciones de clustering en datos reales.
+   * Implementación con Scikit-learn.
+
+## Machine Learning Avanzado
+
+Clase 19: Reducción de Dimensionalidad y Representaciones de Datos
+
+   * ¿Qué es la reducción de dimensionalidad y por qué es útil?
+   * Métodos principales: PCA, t-SNE, UMAP.
+   * Representaciones aprendidas vs. características manuales.
+   * Embeddings y su impacto en modelos de ML.
+   * Visualización de datos en espacios reducidos.
+
+Clase 20: Optimización y Ajuste de Modelos
+
+   * ¿Cómo mejorar el rendimiento de un modelo?
+   * Búsqueda de hiperparámetros: Grid Search, Random Search, Bayesian Optimization.
+   * Técnicas de regularización: L1, L2 y Elastic Net.
+   * Early stopping y checkpointing.
+   * Construcción de pipelines de ML eficientes.
+
+Clase 21: Redes Neuronales y Arquitecturas Modernas
+
+   * Fundamentos de redes neuronales artificiales.
+   * Backpropagation y funciones de activación.
+   * Introducción a CNNs (Redes Convolucionales) y su uso en visión por computadora.
+   * RNNs y LSTMs para procesamiento de secuencias.
+   * El impacto de los Transformers y la atención en NLP.
+
+Clase 22: ML Explicable y Causalidad
+
+   * ¿Por qué es importante la interpretabilidad en modelos de ML?
+   * Herramientas de interpretabilidad: SHAP, LIME, PDP.
+   * Causalidad en ML: Diferencias entre correlación y causalidad.
+   * DAGs y métodos de inferencia causal.
+   * Evaluación de impacto de cambios en modelos.
+
+## Producción y Automatización  
+
+Clase 23: MLOps y Automatización del Ciclo de Vida de Modelos
+
+   * Introducción a MLOps y su importancia en producción.
+   * Gestión del ciclo de vida de modelos: entrenamiento, versionado y monitoreo.
+   * Automatización con CI/CD en ML.
+   * Infraestructura escalable para ML en la nube.
+   * Ejemplo de pipeline de ML en producción.
+
 
